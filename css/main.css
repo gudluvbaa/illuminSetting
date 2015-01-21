@@ -1,0 +1,43 @@
+body {
+	color: #FFF;
+	background-color: #363838;
+}
+header.menu {
+	height: 70px;
+	background-color: #363838;
+}
+header.menu .illumin-logo{
+
+}
+header.menu .setting-menu{  
+	margin-top: 39px;
+}
+@media only screen and (max-width: 991px){  
+	header.menu .setting-menu{  
+		margin-top: 7px;
+	}
+}
+header.menu .setting-menu ul li{ 
+	border-bottom: 3px #438aae solid;
+	list-style: none;
+	font-size: 18px;
+	width: 95px;
+	padding: 2px 10px;
+	text-align: center;
+}
+.illumin-logo img{
+	width: 70%;
+	margin: 0 15%;
+}
+.illumin-logo{
+	position: relative;
+	top: 25px;
+	z-index: 1001;
+}
+.main-content {
+	margin-top: 5px;
+}
+.main-content.col-md-12{
+	margin-left: 0;
+	margin-right: 0;
+}
